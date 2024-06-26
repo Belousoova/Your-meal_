@@ -1,0 +1,61 @@
+.product {
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    min-height: 243px;
+}
+.catalog__title {
+/* Бургеры */
+font-weight: 600;
+font-size: 28px;
+line-height: 120%;
+}
+.product-image {
+/* photo */
+left: 4px;
+top: 4px;
+background: url(mae-mu-I7A_pHLcQK8-unsplash.jpg);
+border-radius: 8px;
+margin-bottom: 10px;
+}
+.product__price {
+/* 689₽ */
+font-size: 16px;
+line-height: 100%;
+color: #000000;
+margin-bottom: 4px;
+}
+.product__title{
+/* Мясная бомба */
+
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+margin-bottom: 16px;
+}
+.product__detail {
+
+}
+.product__weight {
+/* 520г */
+font-size: 12px;
+line-height: 130%;
+color: #B1B1B1;
+margin-bottom: 7px;
+}
+.product__add {
+/* Добавить */
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 10px;
+gap: 10px;
+background: #F2F2F3;
+border-radius: 8px;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+color: #000000;
+padding-right: 4px;
+}

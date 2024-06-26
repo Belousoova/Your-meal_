@@ -1,0 +1,48 @@
+.footer {
+    padding: 24px 0;
+    background-color: white;
+}
+.footer__logo {
+    width: 196;
+    color: #ff7020;
+}
+
+.footer__list {
+    display: flex;
+    gap: 10px;
+}
+.footer__title {
+/* Номер для заказа */
+margin-top: 24px;
+/* Номер для заказа */
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+margin-bottom: 10px;
+}
+.footer__list-item {
+    /* +7(930)833-38-11 */
+    display: flex;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+margin-bottom: 24px;
+}
+.footer__link-phone {
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.social-icons {
+    width: 32px; 
+    height: 32px
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+.footer__development {
+    /* © YouMeal, 2022 */
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}

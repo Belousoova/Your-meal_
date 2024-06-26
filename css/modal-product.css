@@ -1,0 +1,88 @@
+.modal-product {
+background-color: white;
+width: 100%;
+height: 100%;
+padding: 32px 10px;
+}
+.modal-product__container {
+    /* Product cart_320 */
+max-width: 300px;
+margin: 0 auto;
+}
+.modal-product__title {
+    /* Мясная бомба */
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 12px;
+    }
+    .modal-product__image {
+        /* photo */
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    }
+
+    .modal-product__description {
+    /* Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести. */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    margin-bottom: 10px;
+    }
+
+    .ingredients__title {
+    /* Состав: */
+    font-size: 10px;
+    line-height: 130%;
+    }
+    .modal-product__ingredients {
+        flex-grow: 1;
+    }
+    .ingredients__item {
+    /* Пшеничная булочка */
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 130%;
+    }
+    .ingredients__calories {
+        /* Frame 26 */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+color: #B1B1B1;
+margin-bottom: 10px;
+    }
+ .modal-product__add{ 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .modal-product__btn {
+flex-grow: 1;
+padding: 9px;
+background-color: #ff7020;
+border-radius: 8px;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+color: white;
+margin-right: 8px;
+    }
+    .modal-product-count {
+        
+    }
+   .modal-product__price {
+    /* 689₽ */
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+text-align: right;
+color: #000000;
+padding-top: 16px;
+   } 
+  
